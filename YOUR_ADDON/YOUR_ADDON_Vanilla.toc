@@ -15,4 +15,6 @@
 ## X-Curse-Project-ID: 
 ## X-Wago-ID: 
 
-Main.lua
+core.lua
+i18n.lua
+YOUR_ADDON.lua

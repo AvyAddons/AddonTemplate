@@ -10,6 +10,7 @@ To use this template, you need to rename some files and folders, and do a search
 * Rename the folder `AddonTemplate` to your project name, if you haven't already.
 * Rename the folder `YOUR_ADDON` to the exact folder name of your addon.
 * Rename the file `YOUR_ADDON.toc` so that you get the exact folder name of your addon, with the `.toc` file ending.
+* Rename the file `YOUR_ADDON.lua` so that you get the exact folder name of your addon, with the `.lua` file ending.
 * Repeat the previous step for the other `YOUR_ADDON_<xpac>.toc` files, but make sure to _only_ replace the `YOUR_ADDON` part.
 * Run a search and replace on all the files in the entire folder structure for `YOUR_ADDON`, and replace it with the exact folder name of your addon.
 * Run a search and replace on all the files in the entire folder structure for `YOUR_DESC`, and replace it with your addon's description.
