@@ -15,6 +15,5 @@
 ## X-Curse-Project-ID: 
 ## X-Wago-ID: 
 
-core.lua
-i18n.lua
+Localization.lua
 YOUR_ADDON.lua

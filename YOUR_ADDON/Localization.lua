@@ -1,4 +1,4 @@
--- Retrive addon folder name, and our local, private namespace.
+-- Retrieve addon folder name, and our local, private namespace.
 ---@type string, table
 local addonName, addon = ...
 
@@ -6,7 +6,6 @@ local addonName, addon = ...
 -----------------------------------------------------------
 -- Upvalue any lua functions used here.
 local pairs = pairs
-
 
 -- WoW API
 -----------------------------------------------------------
@@ -49,7 +48,7 @@ end)({
     -- * Entries where the value (to the right) is the boolean 'true',
     --   will use the key (to the left) as the value instead!
     ["enUS"] = {
-
+        [addonName] = true,
     },
     ["deDE"] = {},
     ["esES"] = {},
